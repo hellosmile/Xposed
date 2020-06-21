@@ -1,2 +1,3 @@
+include ':detect'
 include ':app'
 rootProject.name = "Xposed"

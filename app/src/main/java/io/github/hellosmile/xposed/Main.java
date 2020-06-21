@@ -43,7 +43,7 @@ public class Main implements IXposedHookLoadPackage {
 
                 param.setResult("1234567890");
 
-                Log.i(TAG, "Replace IMEI Args: " + object);
+                Log.i(TAG, "Replace IMEI Args: " + param.getResult());
 
                 super.afterHookedMethod(param);
             }
